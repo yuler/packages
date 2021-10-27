@@ -1,0 +1,25 @@
+{
+	"name": "package-json-sort",
+	"version": "0.0.0",
+	"description": "Sort package.json fields",
+	"license": "MIT",
+	"repository": "yuler/packages",
+	"author": "yuler <is.yuler@gmail.com> (https://yuler.me)",
+	"bin": "cli.js",
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=16"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"package-json-sort"
+	],
+	"dependencies": {
+		"detect-indent": "^7.0.0",
+		"sort-keys": "^5.0.0"
+	}
+}
