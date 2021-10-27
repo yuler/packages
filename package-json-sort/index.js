@@ -56,7 +56,7 @@ export default async function packageJsonSort(options = {}) {
 		compare,
 	})
 	await fs.writeFile(
-		'package.json',
+		path.resolve(cwd, 'package.json'),
 		JSON.stringify(json, null, indent) + '\n',
 	)
 }
