@@ -1,0 +1,22 @@
+{
+	"name": "package-json-sort",
+	"version": "0.0.0",
+	"description": "Sort package.json fields",
+	"main": "index.js",
+	"type": "module",
+	"engines": {
+		"node": ">=16"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": "yuler/packages",
+	"keywords": [
+		"package-json-sort"
+	],
+	"author": "yuler <is.yuler@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"sort-keys": "^5.0.0"
+	}
+}
