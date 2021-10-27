@@ -1,18 +1,20 @@
 {
-	"main": "index.js",
 	"name": "package-json-sort",
 	"version": "0.0.0",
 	"description": "Sort package.json fields",
 	"license": "MIT",
 	"repository": "yuler/packages",
-	"author": "yuler <is.yuler@gmail.com>",
+	"author": "yuler <is.yuler@gmail.com> (https://yuler.me)",
+	"bin": "cli.js",
 	"type": "module",
+	"exports": "./index.js",
 	"engines": {
 		"node": ">=16"
 	},
-	"scripts": {
-		"test": "jest"
-	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
 	"keywords": [
 		"package-json-sort"
 	],

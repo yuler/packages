@@ -2,7 +2,13 @@
 
 > Sort package.json fields
 
-# Related
+## Usage
 
--   [keithamus/sort-package-json](/keithamus/sort-package-json)
--   [sindresorhus/sort-keys](/sindresorhus/sort-keys)
+```bash
+npx package-json-sort
+```
+
+## Related
+
+-   [keithamus/sort-package-json](https://github.com/keithamus/sort-package-json)
+-   [sindresorhus/sort-keys](https://github.com/sindresorhus/sort-keys)
