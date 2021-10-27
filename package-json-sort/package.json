@@ -1,8 +1,11 @@
 {
+	"main": "index.js",
 	"name": "package-json-sort",
 	"version": "0.0.0",
 	"description": "Sort package.json fields",
-	"main": "index.js",
+	"license": "MIT",
+	"repository": "yuler/packages",
+	"author": "yuler <is.yuler@gmail.com>",
 	"type": "module",
 	"engines": {
 		"node": ">=16"
@@ -10,13 +13,11 @@
 	"scripts": {
 		"test": "jest"
 	},
-	"repository": "yuler/packages",
 	"keywords": [
 		"package-json-sort"
 	],
-	"author": "yuler <is.yuler@gmail.com>",
-	"license": "MIT",
 	"dependencies": {
+		"detect-indent": "^7.0.0",
 		"sort-keys": "^5.0.0"
 	}
 }

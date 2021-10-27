@@ -12,11 +12,18 @@ importers:
 
   package-json-sort:
     specifiers:
+      detect-indent: ^7.0.0
       sort-keys: ^5.0.0
     dependencies:
+      detect-indent: 7.0.0
       sort-keys: 5.0.0
 
 packages:
+
+  /detect-indent/7.0.0:
+    resolution: {integrity: sha512-/6kJlmVv6RDFPqaHC/ZDcU8bblYcoph2dUQ3kB47QqhkUEqXe3VZPELK9BaEMrC73qu+wn0AQ7iSteceN+yuMw==}
+    engines: {node: '>=12.20'}
+    dev: false
 
   /is-plain-obj/4.0.0:
     resolution: {integrity: sha512-NXRbBtUdBioI73y/HmOhogw/U5msYPC9DAtGkJXeFcFWSFZw0mCUsPxk/snTuJHzNKA8kLBK4rH97RMB1BfCXw==}
