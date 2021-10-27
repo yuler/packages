@@ -1,6 +1,6 @@
 {
 	"name": "package-json-sort",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Sort package.json fields",
 	"license": "MIT",
 	"repository": "yuler/packages",
